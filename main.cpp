@@ -70,7 +70,6 @@ bool compare_nodes(vector<edge> f, vector<edge> s, int color[]){
 }
 
 void dfs(int x, int prev, vector<edge> v[], bool used[]){
-    cout << x << ' ' << prev << '\n';
     used[x] = 1;
 
     for (int i = 0; i < v[x].size(); ++i){
